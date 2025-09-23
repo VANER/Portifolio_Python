@@ -2,8 +2,14 @@
 
 print ('CALCULO DE JUROS SIMPLES')
 print ('Informe os dados para o calculo do juros: ')
-capital = float(input('Capital: '))
-taxa = float(input('Taxa de juros: '))
-tempo = float(input('Tempo: '))
-juros = capital * taxa * tempo / 100
+
+#Variaveis recebe  um numero decimall informado pelo usuario
+capital = float(input('Capital: ')) 
+taxa = float(input('Taxa de juros: ')) 
+tempo = float(input('Tempo: ')) 
+
+#Base dw calculo do juros.
+juros = capital * taxa * tempo / 100 
+
+#Escreve o resultado na tela do usuario.
 print (' O valor do juros é: R$ ', juros)
